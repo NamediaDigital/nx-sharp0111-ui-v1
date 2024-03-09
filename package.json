@@ -1,5 +1,5 @@
 {
-  "name": "@nx-sharp0111-ui-v1/source",
+  "name": "@sharp0111/nx-ui-v1",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -7,7 +7,6 @@
     "build": "nx build",
     "test": "nx test"
   },
-  "private": true,
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
