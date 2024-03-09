@@ -1,6 +1,6 @@
 {
   "name": "@sharp0111/nx-ui-v1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
