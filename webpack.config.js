@@ -6,18 +6,15 @@ module.exports = {
   output: {
     path: join(__dirname, './dist/nx-sharp0111-ui-v1'),
   },
-  devServer: {
-    port: 4200,
-  },
   plugins: [
     new NxWebpackPlugin({
-      tsConfig: './tsconfig.app.json',
+      tsConfig: './tsconfig.json',
       compiler: 'babel',
-      main: './src/main.tsx',
-      index: './src/index.html',
-      baseHref: '/',
-      assets: ['./src/favicon.ico', './src/assets'],
-      styles: ['./src/styles.scss'],
+      main: './src/index.ts',
+      // index: './src/index.html',
+      // baseHref: '/',
+      // assets: ['./src/favicon.ico', './src/assets'],
+      // styles: ['./src/styles.scss'],
       outputHashing: process.env['NODE_ENV'] === 'production' ? 'all' : 'none',
       optimization: process.env['NODE_ENV'] === 'production',
     }),
