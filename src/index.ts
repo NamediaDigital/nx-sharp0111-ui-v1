@@ -1,1 +1,1 @@
-export * from '@sharp0111/components'
+export * from './components'
