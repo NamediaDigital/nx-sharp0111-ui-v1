@@ -1,6 +1,6 @@
 {
   "name": "@sharp0111/nx-ui-v1",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
@@ -8,6 +8,7 @@
     "test": "nx test"
   },
   "main": "./dist",
+  "typings": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
